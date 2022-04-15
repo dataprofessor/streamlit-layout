@@ -12,4 +12,7 @@ st.header('Output')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-  st.write(f'Hello {user_name}')
+  if user_name not None:
+    st.write(f'Hello {user_name}')
+  else:
+    st.write('What's your name?')
