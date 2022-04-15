@@ -19,7 +19,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
   if user_name != '':
-    st.write(f'Hello {user_name}!')
+    st.write(f'👋 Hello {user_name}!')
   else:
     st.write('👈  Please enter your **name**!')
 
