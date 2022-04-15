@@ -21,7 +21,7 @@ with col1:
 
 with col2:
   if user_emoji != '':
-    st.write(f'{user_emoji} is your favorite **emoji**!)
+    st.write(f'{user_emoji} is your favorite **emoji**!')
   else:
     st.write('👈 Please choose an **emoji**!')
 
