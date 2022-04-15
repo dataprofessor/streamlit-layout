@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 st.title('How to layout your Streamlit app')
 
 st.sidebar.header('Input')
-user_name = st.sidebar.text_input('What is your name?')
+user_name = st.sidebar.text_input('👈 What is your name? Please enter in the sidebar!')
 
 st.header('Output')
 
