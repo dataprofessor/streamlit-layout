@@ -16,10 +16,13 @@ with col1:
   if user_name != '':
     st.write(f'Hello {user_name}')
   else:
-    st.write('👈  Please enter your **name** in the sidebar!')
+    st.write('👈  Please enter your **name**!')
 
 with col2:
   if user_emoji != '':
     st.write(user_emoji)
   else:
-    st.write('👈 Please choose an **emoji** in the sidebar')
+    st.write('👈 Please choose an **emoji**!')
+
+with col3:
+  
