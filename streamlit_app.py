@@ -6,7 +6,7 @@ st.title('How to layout your Streamlit app')
 
 st.sidebar.header('Input')
 user_name = st.sidebar.text_input('What is your name?')
-user_emoji = st.sidebar.selectbox('How do you feel?', ['', ':smile:', 'tired', 'excited'])
+user_emoji = st.sidebar.selectbox('How do you feel?', ['', ':smile:', '😆', 'excited'])
 
 st.header('Output')
 
