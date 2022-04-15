@@ -31,7 +31,7 @@ with col2:
 
 with col3:
   if user_food != '':
-    st.write(f'**{user_food}** is your favorite **food**!')
+    st.write(f'🍴 **{user_food}** is your favorite **food**!')
   else:
     st.write('👈 Please choose your favorite **food**!')
 
