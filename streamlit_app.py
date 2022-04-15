@@ -24,5 +24,4 @@ with col2:
   else:
     st.write('👈 Please choose an **emoji**!')
 
-with col3:
-  
+
