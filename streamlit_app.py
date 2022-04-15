@@ -15,4 +15,4 @@ with col1:
   if user_name != '':
     st.write(f'Hello {user_name}')
   else:
-    st.write('👈  What is your name? Please enter in the sidebar!')
+    st.write('👈  Please enter in the sidebar!')
