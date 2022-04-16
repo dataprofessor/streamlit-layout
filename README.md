@@ -57,24 +57,24 @@ The very first thing to do when creating a Streamlit app is to start by importin
 import streamlit as st
 ```
 
-
+We'll start by first defining the page layout to be displayed in the `wide` mode, which allows the page content to expand to the browser's width.
 ```python
 st.set_page_config(layout="wide")
 ```
 
-
+Next, we'll give the Streamlit app a title.
 ```python
 st.title('How to layout your Streamlit app')
 ```
 
-
+An expandable box titled `About this app` is placed under the app title. Upon expansion, we'll see additional details inside.
 ```python
 with st.expander('About this app'):
   st.write('This app shows the various ways on how you can layout your Streamlit app.')
   st.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', width=250)
 ```
 
-
+Input widgets for accepting user input is placed in the sidebar as specified by using the `st.sidebar` command before the Streamlit commands `text_input` and `selectbox`. Input values entered or selected by the user are assigned and stored in the `user_name`, `user_emoji` and `user_food` variables.
 ```python
 st.sidebar.header('Input')
 user_name = st.sidebar.text_input('What is your name?')
@@ -106,6 +106,7 @@ with col3:
   else:
     st.write('👈 Please choose your favorite **food**!')
 ```
+It is also worthy to note that `f` strings were used to combine pre-canned text together with the user provided values. 
 
 ## Further reading
 - [Layouts and Containers](https://docs.streamlit.io/library/api-reference/layout)
