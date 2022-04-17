@@ -11,7 +11,7 @@ In this tutorial, we're going to use the following commands to layout our Stream
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-layout/)
 
 ## Code
-Here's how to use `st.write`:
+Here's how to customize the layout of your Streamlit app:
 ```python
 import streamlit as st
 
